@@ -1,0 +1,38 @@
+{
+	"produts":[{
+		"src": "images/capricioasa.jpg",
+		"name": "Capricioasa",
+		"price": [80, "MDL "],
+		"description": "Sunca, ciupersi, sos dulce"
+	},
+	{
+		"src": "images/fresca.jpg",
+		"name": "Fresca",
+		"price": [80, "MDL "],
+		"description": "Salam, ciuperci, sos de rosii"
+	},
+	{
+		"src": "images/sicilia.jpg",
+		"name": "Sicilia",
+		"price": [80, "MDL "],
+		"description": "Salam, ciuperci, sos de rosii"
+	},
+	{
+		"src": "images/funghi.jpg",
+		"name": "Funghi",
+		"price": [80, "MDL "],
+		"description": "Salam, ciuperci, sos de rosii"
+	},
+	{
+		"src": "images/margarita.jpg",
+		"name": "Margarita",
+		"price": [80, "MDL "],
+		"description": "Salam, ciuperci, sos de rosii"
+	},
+	{
+		"src": "images/capricioasa.jpg",
+		"name": "Capricioasa",
+		"price": [80, "MDL "],
+		"description": "Salam, ciuperci, sos de rosii"
+	}]
+}

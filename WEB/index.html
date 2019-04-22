@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse"> 
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Americano</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#">Пицца</a></li>
+            <li><a href="#">Напитки</a></li>  
+            <li><a href="#">Десерт</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Регистрация</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Вход</a></li>
+            <li><a href="#">Корзина</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="block">
+    <div class="container">
+        <div class="card-deck" id="card_container">
+            <div class="button">
+                <button type="button" class="btn btn-secondary"></button>
+            </div>  
+        </div>
+    </div>
+</div>
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="name"></div>
+        <img  id="pizzaImg">
+        <div id="price"></div>
+        <div id="description"></div>
+        
+        <div class="form-check">
+            Tipul blatului:
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="2" checked>
+            <label class="form-check-label" for="exampleRadios1">Gros</label>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="4" >
+            <label class="form-check-label" for="exampleRadios2">Subtire</label>
+            <br>
+            Marimea:
+            <input class="form-check-input" type="radio" name="exampleRadiosm" id="exampleRadios4" value="6" checked>
+            <label class="form-check-label" for="exampleRadios4">Mini</label>
+            <input class="form-check-input" type="radio" name="exampleRadiosm" id="exampleRadios5" value="8" >
+            <label class="form-check-label" for="exampleRadios5">Maxi</label>
+            <br>
+            Adausuri:
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" value="10">
+            <label class="form-check-label" for="exampleCheck1">Cascaval</label>
+            <input type="checkbox" class="form-check-input" id="exampleCheck2" value="20">
+            <label class="form-check-label" for="exampleCheck2">Salam</label>
+        </div>
+       
+        <button id="btn">Comanda</button>
+        <button id="add">+</button>
+        <input value="1"id="cant"></input>
+        <button id="remove">-</button>
+        <span>Total:</span>
+        <input id="total"></input>
+
+    </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+    <script src="js/main.js"></script>
+</body>
+</html>
